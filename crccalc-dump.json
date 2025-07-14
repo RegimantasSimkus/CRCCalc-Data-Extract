@@ -1,0 +1,778 @@
+[
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 223,
+        "init": 255,
+        "name": "CRC-8/AUTOSAR",
+        "poly": 47,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 255
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 38,
+        "init": 0,
+        "name": "CRC-8/BLUETOOTH",
+        "poly": 167,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 218,
+        "init": 255,
+        "name": "CRC-8/CDMA2000",
+        "poly": 155,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 21,
+        "init": 0,
+        "name": "CRC-8/DARC",
+        "poly": 57,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 188,
+        "init": 0,
+        "name": "CRC-8/DVB-S2",
+        "poly": 213,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 55,
+        "init": 0,
+        "name": "CRC-8/GSM-A",
+        "poly": 29,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 148,
+        "init": 0,
+        "name": "CRC-8/GSM-B",
+        "poly": 73,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 255
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 180,
+        "init": 255,
+        "name": "CRC-8/HITAG",
+        "poly": 29,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-8/ITU"
+        ],
+        "bitWidth": 8,
+        "check": 161,
+        "init": 0,
+        "name": "CRC-8/I-432-1",
+        "poly": 7,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 85
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 126,
+        "init": 253,
+        "name": "CRC-8/I-CODE",
+        "poly": 29,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 234,
+        "init": 0,
+        "name": "CRC-8/LTE",
+        "poly": 155,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-8/MAXIM",
+            "DOW-CRC"
+        ],
+        "bitWidth": 8,
+        "check": 161,
+        "init": 0,
+        "name": "CRC-8/MAXIM-DOW",
+        "poly": 49,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 153,
+        "init": 199,
+        "name": "CRC-8/MIFARE-MAD",
+        "poly": 29,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 247,
+        "init": 255,
+        "name": "CRC-8/NRSC-5",
+        "poly": 49,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 62,
+        "init": 0,
+        "name": "CRC-8/OPENSAFETY",
+        "poly": 47,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 208,
+        "init": 255,
+        "name": "CRC-8/ROHC",
+        "poly": 7,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 75,
+        "init": 255,
+        "name": "CRC-8/SAE-J1850",
+        "poly": 29,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 255
+    },
+    {
+        "aliases": [
+            "CRC-8"
+        ],
+        "bitWidth": 8,
+        "check": 244,
+        "init": 0,
+        "name": "CRC-8/SMBUS",
+        "poly": 7,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-8/AES",
+            "CRC-8/EBU"
+        ],
+        "bitWidth": 8,
+        "check": 151,
+        "init": 255,
+        "name": "CRC-8/TECH-3250",
+        "poly": 29,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 8,
+        "check": 37,
+        "init": 0,
+        "name": "CRC-8/WCDMA",
+        "poly": 155,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "ARC",
+            "CRC-16",
+            "CRC-16/LHA",
+            "CRC-IBM"
+        ],
+        "bitWidth": 16,
+        "check": 47933,
+        "init": 0,
+        "name": "CRC-16/ARC",
+        "poly": 32773,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 19462,
+        "init": 65535,
+        "name": "CRC-16/CDMA2000",
+        "poly": 51303,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 44775,
+        "init": 65535,
+        "name": "CRC-16/CMS",
+        "poly": 32773,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 40655,
+        "init": 32781,
+        "name": "CRC-16/DDS-110",
+        "poly": 32773,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "R-CRC-16"
+        ],
+        "bitWidth": 16,
+        "check": 126,
+        "init": 0,
+        "name": "CRC-16/DECT-R",
+        "poly": 1417,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 1
+    },
+    {
+        "aliases": [
+            "X-CRC-16"
+        ],
+        "bitWidth": 16,
+        "check": 127,
+        "init": 0,
+        "name": "CRC-16/DECT-X",
+        "poly": 1417,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 60034,
+        "init": 0,
+        "name": "CRC-16/DNP",
+        "poly": 15717,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 65535
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 49847,
+        "init": 0,
+        "name": "CRC-16/EN-13757",
+        "poly": 15717,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 65535
+    },
+    {
+        "aliases": [
+            "CRC-16/DARC",
+            "CRC-16/EPC",
+            "CRC-16/EPC-C1G2",
+            "CRC-16/I-CODE"
+        ],
+        "bitWidth": 16,
+        "check": 54862,
+        "init": 65535,
+        "name": "CRC-16/GENIBUS",
+        "poly": 4129,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 65535
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 52796,
+        "init": 0,
+        "name": "CRC-16/GSM",
+        "poly": 4129,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 65535
+    },
+    {
+        "aliases": [
+            "CRC-16/AUTOSAR",
+            "CRC-16/CCITT-FALSE"
+        ],
+        "bitWidth": 16,
+        "check": 10673,
+        "init": 65535,
+        "name": "CRC-16/IBM-3740",
+        "poly": 4129,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-16/ISO-HDLC",
+            "CRC-16/ISO-IEC-14443-3-B",
+            "CRC-16/X-25",
+            "CRC-B",
+            "X-25"
+        ],
+        "bitWidth": 16,
+        "check": 36974,
+        "init": 65535,
+        "name": "CRC-16/IBM-SDLC",
+        "poly": 4129,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 65535
+    },
+    {
+        "aliases": [
+            "CRC-A"
+        ],
+        "bitWidth": 16,
+        "check": 48901,
+        "init": 50886,
+        "name": "CRC-16/ISO-IEC-14443-3-A",
+        "poly": 4129,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-16/BLUETOOTH",
+            "CRC-16/CCITT",
+            "CRC-16/CCITT-TRUE",
+            "CRC-16/V-41-LSB",
+            "CRC-CCITT",
+            "KERMIT"
+        ],
+        "bitWidth": 16,
+        "check": 8585,
+        "init": 0,
+        "name": "CRC-16/KERMIT",
+        "poly": 4129,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 48628,
+        "init": 0,
+        "name": "CRC-16/LJ1200",
+        "poly": 28515,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 30507,
+        "init": 65535,
+        "name": "CRC-16/M17",
+        "poly": 22837,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-16/MAXIM"
+        ],
+        "bitWidth": 16,
+        "check": 17602,
+        "init": 0,
+        "name": "CRC-16/MAXIM-DOW",
+        "poly": 32773,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 65535
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 28561,
+        "init": 65535,
+        "name": "CRC-16/MCRF4XX",
+        "poly": 4129,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "MODBUS"
+        ],
+        "bitWidth": 16,
+        "check": 19255,
+        "init": 65535,
+        "name": "CRC-16/MODBUS",
+        "poly": 32773,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 41062,
+        "init": 65535,
+        "name": "CRC-16/NRSC-5",
+        "poly": 2059,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 23864,
+        "init": 0,
+        "name": "CRC-16/OPENSAFETY-A",
+        "poly": 22837,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 8446,
+        "init": 0,
+        "name": "CRC-16/OPENSAFETY-B",
+        "poly": 30043,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-16/IEC-61158-2"
+        ],
+        "bitWidth": 16,
+        "check": 43033,
+        "init": 65535,
+        "name": "CRC-16/PROFIBUS",
+        "poly": 7631,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 65535
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 25552,
+        "init": 45738,
+        "name": "CRC-16/RIELLO",
+        "poly": 4129,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-16/AUG-CCITT"
+        ],
+        "bitWidth": 16,
+        "check": 58828,
+        "init": 7439,
+        "name": "CRC-16/SPI-FUJITSU",
+        "poly": 4129,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 53467,
+        "init": 0,
+        "name": "CRC-16/T10-DIF",
+        "poly": 35767,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 4019,
+        "init": 0,
+        "name": "CRC-16/TELEDISK",
+        "poly": 41111,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 9905,
+        "init": 35308,
+        "name": "CRC-16/TMS37157",
+        "poly": 4129,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-16/BUYPASS",
+            "CRC-16/VERIFONE"
+        ],
+        "bitWidth": 16,
+        "check": 65256,
+        "init": 0,
+        "name": "CRC-16/UMTS",
+        "poly": 32773,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 16,
+        "check": 46280,
+        "init": 65535,
+        "name": "CRC-16/USB",
+        "poly": 32773,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 65535
+    },
+    {
+        "aliases": [
+            "CRC-16/ACORN",
+            "CRC-16/LTE",
+            "CRC-16/V-41-MSB",
+            "XMODEM",
+            "ZMODEM"
+        ],
+        "bitWidth": 16,
+        "check": 12739,
+        "init": 0,
+        "name": "CRC-16/XMODEM",
+        "poly": 4129,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CRC-32Q"
+        ],
+        "bitWidth": 32,
+        "check": 806403967,
+        "init": 0,
+        "name": "CRC-32/AIXM",
+        "poly": 2168537515,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 32,
+        "check": 379048042,
+        "init": 4294967295,
+        "name": "CRC-32/AUTOSAR",
+        "poly": 4104977171,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 4294967295
+    },
+    {
+        "aliases": [
+            "CRC-32D"
+        ],
+        "bitWidth": 32,
+        "check": 2268157302,
+        "init": 4294967295,
+        "name": "CRC-32/BASE91-D",
+        "poly": 2821953579,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 4294967295
+    },
+    {
+        "aliases": [
+            "CRC-32/AAL5",
+            "CRC-32/DECT-B",
+            "B-CRC-32"
+        ],
+        "bitWidth": 32,
+        "check": 4236843288,
+        "init": 4294967295,
+        "name": "CRC-32/BZIP2",
+        "poly": 79764919,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 4294967295
+    },
+    {
+        "aliases": [],
+        "bitWidth": 32,
+        "check": 1858268612,
+        "init": 0,
+        "name": "CRC-32/CD-ROM-EDC",
+        "poly": 2147581979,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [
+            "CKSUM",
+            "CRC-32/POSIX"
+        ],
+        "bitWidth": 32,
+        "check": 1985902208,
+        "init": 0,
+        "name": "CRC-32/CKSUM",
+        "poly": 79764919,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 4294967295
+    },
+    {
+        "aliases": [
+            "CRC-32/BASE91-C",
+            "CRC-32/CASTAGNOLI",
+            "CRC-32/INTERLAKEN",
+            "CRC-32C"
+        ],
+        "bitWidth": 32,
+        "check": 3808858755,
+        "init": 4294967295,
+        "name": "CRC-32/ISCSI",
+        "poly": 517762881,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 4294967295
+    },
+    {
+        "aliases": [
+            "CRC-32",
+            "CRC-32/ADCCP",
+            "CRC-32/V-42",
+            "CRC-32/XZ",
+            "PKZIP"
+        ],
+        "bitWidth": 32,
+        "check": 3421780262,
+        "init": 4294967295,
+        "name": "CRC-32/ISO-HDLC",
+        "poly": 79764919,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 4294967295
+    },
+    {
+        "aliases": [
+            "JAMCRC"
+        ],
+        "bitWidth": 32,
+        "check": 873187033,
+        "init": 4294967295,
+        "name": "CRC-32/JAMCRC",
+        "poly": 79764919,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 32,
+        "check": 3535941457,
+        "init": 4294967295,
+        "name": "CRC-32/MEF",
+        "poly": 1947962583,
+        "refIn": true,
+        "refOut": true,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 32,
+        "check": 58124007,
+        "init": 4294967295,
+        "name": "CRC-32/MPEG-2",
+        "poly": 79764919,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    },
+    {
+        "aliases": [],
+        "bitWidth": 32,
+        "check": 3171672888,
+        "init": 0,
+        "name": "CRC-32/XFER",
+        "poly": 175,
+        "refIn": false,
+        "refOut": false,
+        "xorOut": 0
+    }
+]
